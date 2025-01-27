@@ -1,0 +1,68 @@
+/*
+ * Created by SharpDevelop.
+ * User: Aluno_Manha
+ * Date: 27/01/2025
+ * Time: 10:10
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
+
+namespace aula
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			int numero = 20;
+			double preco = 15.99;
+			char letra = 'r';
+			bool verificacao = true; 
+			string nome = "Matheus";
+			
+			Console.WriteLine(numero);
+			Console.WriteLine(preco);
+			Console.WriteLine(letra);
+			Console.WriteLine(verificacao);
+			Console.WriteLine(nome);
+			
+			 numero = 55;
+			 preco = 8.55;
+			 letra = 'b';
+			 verificacao = false; 
+			 nome = "altobaixo";
+			 	
+			Console.WriteLine(numero);
+			Console.WriteLine(preco);
+			Console.WriteLine(letra);
+			Console.WriteLine(verificacao);
+			Console.WriteLine(nome);
+			
+			const double pi = 3.14;
+			Console.WriteLine(pi);
+			
+			int meuInt = 15; 
+			double meuFrac = 7.25;
+			bool meuBool = false;
+			 
+			
+			Console.WriteLine(Convert.ToString(meuInt));
+			Console.WriteLine(Convert.ToDouble(meuInt));
+			Console.WriteLine(Convert.ToInt32(meuFrac));
+			Console.WriteLine(Convert.ToString(meuBool));
+			
+			Console.WriteLine("Qual e seu nome?");
+			string usuario = Console.ReadLine();
+			Console.WriteLine("Meu nome é" + usuario);
+			
+			Console.WriteLine("Digite sua numero inteiro:");
+			int meuNumero = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("seu numero é:" + meuNumero);
+			
+			
+			
+			
+		
+			
+			Console.Write("Pressione algo para fechar . . . ");
+			Console.ReadKey(true);
