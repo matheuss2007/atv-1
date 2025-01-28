@@ -1,0 +1,20 @@
+using System;
+
+namespace matheus 
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+	 Console.WriteLine("Digite um ponto fluente:");
+	    float meuNumero = Convert.ToSingle(Console.ReadLine());
+	    Console.WriteLine("Seu numero é: " + meuNumero);
+			
+	    
+	    
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
