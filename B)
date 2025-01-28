@@ -1,8 +1,19 @@
-Console.WriteLine("Digite sua numero real:");
-			double meuNumero = Convert.ToDouble(Console.ReadLine());
+using System;
+
+namespace Atividade_01
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digite sua numero real:");
+			double meuNumero = Convert.ToDoubl(Console.ReadLine());
 			Console.WriteLine("seu numero é:" + meuNumero);
 			
 			 
 			
 			Console.Write("Pressione algo para fechar . . . ");
 			Console.ReadKey(true);
+		}
+	}
+}
