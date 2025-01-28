@@ -1,3 +1,20 @@
-Console.WriteLine("Digite sua numero inteiro:");
+
+using System;
+
+namespace Atividade_01
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digite sua numero inteiro:");
 			int meuNumero = Convert.ToInt32(Console.ReadLine());
-			Console.WriteLine("seu numero é:" + meuNumero);
+			Console.WriteLine("seu numero inteiro é:" + meuNumero);
+			
+			 
+			
+			Console.Write("Pressione algo para fechar . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
