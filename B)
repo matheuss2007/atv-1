@@ -1,0 +1,8 @@
+Console.WriteLine("Digite sua numero real:");
+			double meuNumero = Convert.ToDouble(Console.ReadLine());
+			Console.WriteLine("seu numero é:" + meuNumero);
+			
+			 
+			
+			Console.Write("Pressione algo para fechar . . . ");
+			Console.ReadKey(true);
